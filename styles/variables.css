@@ -18,6 +18,8 @@
   --accent-color: #ff0070;
   --h1-text-color: #db00ff;
   --title-text-color: #000028;
+  --focus-color: #ff0070;
+  --hover-color: rgba(255, 0, 112, 0.4);
 
-  --cover-image-bg: url(../images/cover-image-dark.png)
+  --cover-image-bg: url(../images/cover-image-dark.png);
 }
