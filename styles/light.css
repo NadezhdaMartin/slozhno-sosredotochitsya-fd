@@ -52,7 +52,7 @@
     --focus-color: #353430;
     --hover-color: rgba(50, 49, 45, 0.4);
 
-    --cover-image-bg: url(../images/cover-image-light.png);    
+    --cover-image-bg: url(../images/cover-image-light.png);
   }
 
   .theme-auto .page {
