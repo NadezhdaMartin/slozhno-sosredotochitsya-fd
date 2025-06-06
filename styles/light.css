@@ -22,15 +22,15 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--cover-image-bg);
+  background-image: var(--cover-image-bg, url(../images/cover-image-light.png));
 }
 
 .theme-light .decorated-zone::before {
-  border-color: var(--text-color);
+  border-color: var(--text-color, #353430);
 }
 
 .theme-light .decorated-zone::after {
-  border-color: var(--text-color);
+  border-color: var(--text-color, #353430);
 }
 
 .theme-light .header__decorative-element {
@@ -38,7 +38,7 @@
 }
 
 .theme-light .section__title {
-  color: var(--title-text-color);
+  color: var(--title-text-color, #353430);
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,15 +56,15 @@
   }
 
   .theme-auto .page {
-    background-image: var(--cover-image-bg);
+    background-image: var(--cover-image-bg, url(../images/cover-image-light.png));
   }
 
   .theme-auto .decorated-zone::before {
-    border-color: var(--text-color);
+    border-color: var(--text-color, #353430);
   }
 
   .theme-auto .decorated-zone::after {
-    border-color: var(--text-color);
+    border-color: var(--text-color, #353430);
   }
 
   .theme-auto .header__decorative-element {
@@ -72,6 +72,6 @@
   }
 
   .theme-auto .section__title {
-    color: var(--title-text-color);
+    color: var(--title-text-color, #353430);
   }
 }
