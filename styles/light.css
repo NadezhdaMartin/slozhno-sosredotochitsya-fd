@@ -44,15 +44,15 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --h1-text-color: #ffc2e6;
-  --title-text-color: #353430;
-  --focus-color: #353430;
-  --hover-color: rgba(50, 49, 45, 0.4);
+    --bg-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --h1-text-color: #ffc2e6;
+    --title-text-color: #353430;
+    --focus-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
 
-  --cover-image-bg: url(../images/cover-image-light.png);    
+    --cover-image-bg: url(../images/cover-image-light.png);    
   }
 
   .theme-auto .page {
