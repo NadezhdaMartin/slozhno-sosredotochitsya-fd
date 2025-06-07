@@ -14,6 +14,7 @@
   --accent-color: #ff8dcb;
   --h1-text-color: #ffc2e6;
   --title-text-color: #353430;
+  --decorated-color: #353430;
   --button-color: #353430;
   --hover-color: rgba(50, 49, 45, 0.4);
 
@@ -21,24 +22,11 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--cover-image-bg, url(../images/cover-image-light.png));
-}
-
-.theme-light .decorated-zone::before {
-  border-color: var(--text-color, #353430);
-}
-
-.theme-light .decorated-zone::after {
-  border-color: var(--text-color, #353430);
+   /*Вам также нужно будет написать ряд подобных селекторов*/
 }
 
 .theme-light .header__decorative-element {
   display: none;
-}
-
-.theme-light .section__title {
-  color: var(--title-text-color, #353430);
 }
 
 @media (prefers-color-scheme: light) {
@@ -49,29 +37,10 @@
     --accent-color: #ff8dcb;
     --h1-text-color: #ffc2e6;
     --title-text-color: #353430;
+    --decorated-color: #353430;
     --button-color: #353430;
     --hover-color: rgba(50, 49, 45, 0.4);
 
     --cover-image-bg: url(../images/cover-image-light.png);
-  }
-
-  .theme-auto .page {
-    background-image: var(--cover-image-bg, url(../images/cover-image-light.png));
-  }
-
-  .theme-auto .decorated-zone::before {
-    border-color: var(--text-color, #353430);
-  }
-
-  .theme-auto .decorated-zone::after {
-    border-color: var(--text-color, #353430);
-  }
-
-  .theme-auto .header__decorative-element {
-    display: none;
-  }
-
-  .theme-auto .section__title {
-    color: var(--title-text-color, #353430);
   }
 }
