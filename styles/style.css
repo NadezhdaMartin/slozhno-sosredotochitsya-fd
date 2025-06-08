@@ -140,7 +140,7 @@
 }
 
 .section__title {
-  color: var(--accent-color, #ff0070);
+  color: var(--title-section-color, #ff0070);
   font-weight: var(--bold-font-weight, 700);
   font-size: var(--main-text-size, 18px);
 }

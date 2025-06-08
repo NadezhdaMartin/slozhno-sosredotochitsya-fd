@@ -11,6 +11,7 @@
   */
   --bg-color: #fff1f7;
   --text-color: #353430;
+  --title-section-color: #353430;
   --accent-color: #ff8dcb;
   --h1-text-color: #ffc2e6;
   --title-text-color: #353430;
@@ -19,10 +20,6 @@
   --hover-color: rgba(50, 49, 45, 0.4);
 
   --cover-image-bg: url(../images/cover-image-light.png);
-}
-
-.theme-light .page {
-   /*Вам также нужно будет написать ряд подобных селекторов*/
 }
 
 .theme-light .header__decorative-element {
@@ -34,6 +31,7 @@
     /* Дублируем переменные светлой темы */
     --bg-color: #fff1f7;
     --text-color: #353430;
+    --title-section-color: #353430;
     --accent-color: #ff8dcb;
     --h1-text-color: #ffc2e6;
     --title-text-color: #353430;
