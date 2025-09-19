@@ -2,10 +2,17 @@
 
 <h2 align="center"><a  href="https://nadezhdamartin.github.io/slozhno-sosredotochitsya-fd/">Посмотреть на Github Pages</a></h2>
 
+<p align="center">
+<img src="https://files.catbox.moe/91gerc.gif">
+</p>
 
 ### Описание
 
 По макету свёрстан адаптивный сайт в светлой и тёмной темах, а также настроено автоматическое переключение между ними в зависимости от системных настроек пользователя. При вёрстке применен подход Mobile first.
+
+<p align="center">
+<img src="https://files.catbox.moe/2tac34.gif">
+</p>
 
 ## О проекте.
 
